@@ -1,0 +1,50 @@
+linked : 50    main 02F2
+linked : 49    settingPannel1 0369
+linked : 48    settingPannel0 0982
+linked : 47    settingScreen 0D78
+linked : 46    historicScreen 0DBE
+linked : 45    menuScreen 0F4A
+linked : 44    mainScreen 1001
+linked : 43    updatingToogle 113D
+linked : 42    updatingTemp 11FD
+linked : 41    updatingDate 123E
+linked : 40    mainStateGraph 1258
+linked : 39    getTouchStatus 12B0
+linked : 38    autoSaveData 12E6
+linked : 37    saveDataInSD 1314
+linked : 36    modeEco 1458
+linked : 35    RTCWrite 1499
+linked : 34    RTCRead 14C4
+linked : 33    writeInReg 1503
+linked : 32    setDateTimeI2C 155C
+linked : 31    nbDigit 15FB
+skipped: 30    boxTouched ----
+linked : 29    isDotInBox 1632
+linked : 28    myClipWindow 165C
+skipped: 27    bigprint ----
+linked : 26    setUpRTC 1671
+linked : 25    getDateTimeI2C 16A2
+linked : 24    getHumidityI2C 1749
+linked : 23    getTempI2C 17C9
+linked : 22    getMax 1854
+linked : 21    getMin 189B
+linked : 20    getTempInSD 18E8
+linked : 19    myPow 197D
+skipped: 18    STOP ----
+linked : 17    readOnSD 19BC
+skipped: 16    readAllOnSD ----
+linked : 15    writeOnSD 1A59
+skipped: 14    setDown ----
+linked : 13    setUp 1AAE
+linked : 12    report 1C17
+linked : 11    isInBox 1C18
+linked : 10    drawSettingButton 1C42
+linked : 9     drawHistoric 1CB2
+linked : 8     drawHygro 1CD2
+linked : 7     drawTemp 1D33
+linked : 6     drawGraph 1E1C
+linked : 5     drawList 213C
+skipped: 4     myRectangle ----
+linked : 3     drawClock 239F
+linked : 2     drawDate 2674
+linked : 1     drawDigit 26FB

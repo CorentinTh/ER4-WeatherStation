@@ -1,0 +1,34 @@
+#platform "uLCD-32PTU"              // Setup the programming environnement (Note : nothing should be before this instruction)
+
+#MODE RUNFLASH
+
+/*
+      - Weather station project -
+    ER4 - IUT Annecy-Le-vieux - 2017
+
+       • Anne LENSING
+       • Helena STICKELBROECK
+       • Cyrille DUPONT
+       • Corentin THOMASSET
+*/
+
+
+#inherit "4DGL_16bitColours.fnc"    // A list of constants for colors
+
+#inherit "myConstants.fnc"          // Contains all needed constants
+#inherit "myFunctionsDisplay.fnc"   // Conatins all functions needed for display
+#inherit "myFunctions.fnc"          // Contains all others functions
+#inherit "myStategraphs.fnc"        // Contains all the state state graphs
+#inherit "myMainScreen.fnc"         // Contains the function that manage the main screen
+#inherit "myMenuScreen.fnc"         // Contains the function that manage the menu screen
+#inherit "myHistoricScreen.fnc"     // Contains the function that manage the historic screen
+#inherit "mySettingScreen.fnc"      // Contains the function that manage the setting screen
+
+func main()
+
+    // Infinite loop
+    repeat
+        mainStateGraph();
+    forever
+
+endfunc
